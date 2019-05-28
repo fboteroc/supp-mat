@@ -70,9 +70,9 @@ summary(lm(lMass[lowdNdS] ~ log((dN)/(dS))[lowdNdS]))
 ## conservative dN/dS and logMass (not significant because not enough
 ## data)
 
-summary(lm(lMass[-lowdNdS] ~ log((dNss+dNww)/(dSss+dSss))[-lowdNdS]))
+summary(lm(lMass[-lowdNdS] ~ log((dNss+dNww)/(dSss+dSww))[-lowdNdS]))
 
-summary(lm(lMass[lowdNdS] ~ log((dNss+dNww)/(dSss+dSss))[lowdNdS]))
+summary(lm(lMass[lowdNdS] ~ log((dNss+dNww)/(dSss+dSww))[lowdNdS]))
 
 
 
